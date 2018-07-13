@@ -18,6 +18,6 @@ $this->load->view($this->config->item('theme') . 'header');
 
 </form>
 
-<?php endforeach;
+<?php
 $this->load->view($this->config->item('theme') . 'footer');
 ?>

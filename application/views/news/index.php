@@ -5,6 +5,8 @@ $this->load->view($this->config->item('theme') . 'header');
 
 <h2><?php echo $title; ?></h2>
 
+<div><?=anchor('news/create', 'Create News Item')?></div>
+
 <?php foreach ($news as $news_item): ?>
 
         <h3><?php echo $news_item['title']; ?></h3>
